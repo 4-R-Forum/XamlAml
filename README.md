@@ -1,5 +1,5 @@
 # ExceLoader
-Powershell scripts for loading data in an Excel file where Sheet.name =Type and Column.names = Properties
+Powershell scripts for loading data to Aras Innovator from an Excel file, where Sheet.name =Type and Column.names = Properties
 
 Using Doug Finke's amazing Import-Excel module from Powershell Gallery, and Aras.IOM.dll these scrips enable users to load data directly from Excel files.
 
