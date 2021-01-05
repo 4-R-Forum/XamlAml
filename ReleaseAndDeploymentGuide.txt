@@ -1,0 +1,55 @@
+EXELOADER RELEASE NOTES AND DEPLOYMENT GUIDE
+==============================================
+
+Release Notes
+
+v0.1 01/05/2021
+	set $iom and $ExcelFile to script directory, added config.xml file
+	
+Deployment
+
+1) Powershell is part of OOTB Windows 10 
+2) Create a shortcut to path C:\Windows\SysWOW64\WindowsPowerShell\v1.0\Powershell.exe
+3) Open the link
+		-> Blue powershell window opens with PS prompt
+		type Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted and press enter
+		->  Do you want to change the execution policy?
+		press Y
+		-> PS prompt, you can now run scripts on this machine, may need to be repeated in VDI
+4) Install the Import-Excel module from Powershell Gallery, may need to be repeated in VDI
+		Open link created in step 2
+		-> Blue powershell window opens with PS prompt
+		type Install-Module -Name ImportExcel -Scope CurrentUser and press enter->
+		-> Do you want PowerShellGet to install and import the NuGet provider now? (default is "Y"):
+		press Enter to accept the default "Y"
+		-> NuGet installs
+		-> Import-Excel Module installs, it may be necessary to respond by pressing "Y" more than once
+		-> PS prompt
+		Import-Excel Module is installed
+		
+Using ExcelLoader
+
+101)	Locate the script ExceLoader.ps1 in File Explorer
+102)	Right click and run with PowershellISE.exe, press F5 to run it /// TODO double click -> error
+103)	-> XAML Gui opens
+			Click Excel File button with ellipsis [...] at right
+				use dialog to select Excel file
+			If output to AML is required
+				Check Output AML box
+				Click Output AML button with ellipsis [...] at right
+				use dialog to select AML output file
+			Edit Target Server Url, in the form http://server/WebAlias/
+			Enter the DataBase name ([...] button not implemented yet)
+			Enter login name
+			Enter password
+			Click Load button
+104)	-> Exceloader runs
+			Any errors will be reported in Powershell window
+			Status: Finished will show below Load button to indicate process is finished
+			Config file will save data from form for next use
+105)	Click Exit button to close window
+			Powershell window closes
+			
+			
+Jon Hodge 1/05/2021
+			

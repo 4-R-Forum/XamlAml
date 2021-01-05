@@ -16,12 +16,12 @@
     [void] [System.Reflection.Assembly]::LoadWithPartialName("System.Drawing")
 
     # Step 0.1 load XAML and create variables for Named elements
-    [xml]$xaml3 = [IO.File]::ReadAllText($FormLocation)
-    $reader=(New-Object System.Xml.XmlNodeReader $xaml3) 
+    [xml]$xaml = [IO.File]::ReadAllText($FormLocation)
+    $reader=(New-Object System.Xml.XmlNodeReader $xaml) 
     try{$Form=[Windows.Markup.XamlReader]::Load( $reader )}
     catch{Write-Host "Unable to load Windows.Markup.XamlReader. Invalid XAML."; Exit}
     # Store Form Objects In PowerShell, any named elements in the XAML are created as variables like $name_value
-    $xaml3.SelectNodes("//*[@Name]") | ForEach-Object{Set-Variable -Scope global -Name  ($_.Name) -Value $Form.FindName($_.Name)}
+    $xaml.SelectNodes("//*[@Name]") | ForEach-Object{Set-Variable -Scope global -Name  ($_.Name) -Value $Form.FindName($_.Name)}
     # variables set here
     $Global:ignore_pfx ="_"
     $Global:applyAML = $True
@@ -53,6 +53,12 @@
 
     $bLoad.Add_Click({Do-Load})
     function Global:Do-load  {
+        $Global:config.selectSingleNode("config/AMLFile").InnerText =  $tbAMLFile.Text
+        $Global:config.selectSingleNode("config/ExcelFile").InnerText =  $tbExcelFile.Text
+        $Global:config.selectSingleNode("config/url").InnerText =  $tbUrl.Text
+        $Global:config.selectSingleNode("config/dbase").InnerText =  $tbDbase.Text
+        $Global:config.selectSingleNode("config/user").InnerText =  $tbUser.Text
+        $Global:config.Save("$Global:sd\config.xml")
         $lStatus.Content = "Status: Loading ..."
         $Form.UpdateLayout()
         $Global:xl =  Open-ExcelPackage -Path $tbExcelFile.Text
@@ -65,6 +71,12 @@
     function Global:Exit-Form  {
       $Form.Close()  | Out-Null
     }
+
+    $tbAMLFile.Text=$Global:config.selectSingleNode("config/AMLFile").'#text'
+    $tbExcelFile.Text=$Global:config.selectSingleNode("config/ExcelFile").'#text'
+    $tbUrl.Text=$Global:config.selectSingleNode("config/url").'#text'
+    $tbDbase.Text=$Global:config.selectSingleNode("config/dbase").'#text'
+    $tbUser.Text=$Global:config.selectSingleNode("config/user").'#text'
 
     return $Form
 }

@@ -9,18 +9,22 @@
         Write-Warning 'You need to call this function from within a saved script.'
     }
 }
-# include component scripts
-Get-ScriptDirectory | Set-Location # look in the same folder
+# set location, include scipts and set variables
+$sd = Get-ScriptDirectory
+Set-Location $sd
+$sd
 .\Create-XamlForm.ps1  # function that implements the GUI
 .\Get-PropItems.ps1    # returns hashtable with properties of type Item for a sheet
 .\Connect-IOM.ps1      # returns an Aras.Innovator object with authenticated connection to the server
-$xaml = 'C:\Users\ghodg\OneDrive\Work\Fragments\PoSH\ExceLoader\MainWindow.xaml'
-$iom = 'C:\dev_codetrees\B-52-V12\Innovator\Server\bin\iom.dll' # iom must match server service pack
-$innov = $null # global variable to be populated by Create-XamlForm, Aras.IOM.Innovator object
+$xaml = $sd + '\MainWindow.xaml'
+$iom =  $sd + '\iom.dll' # iom must match server service pack
+$innov = $null   # global variable to be populated by Create-XamlForm, Aras.IOM.Innovator object
+$output = $null  # global variable to be populated by Create-XamlForm, location to write AML
+[xml] $config = get-content "$sd\config.xml"
 $xl = $null  #global variable to be populated by Create-XamlForm, Excel book to be loaded
 $pf_col = $null  # global variable to be populated by Get-PropItems, physical_file column number
 $applyAML =$True #global variable updated by Create-XamlForm
-$output = "C:\Users\ghodg\OneDrive - Anautics, Inc\Workspace\2021Projects\ExceLoader\aml.xml"
+$output = #null
 $regex1 = "([a-z0-9_]*)\(([a-z0-9_]*)\)" # used to parse property names
 
 # function Load-Excel is called by $Form
