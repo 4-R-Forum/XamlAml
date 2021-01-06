@@ -5,7 +5,8 @@
          $sd
         ,[parameter(Mandatory=$true)]
          [String]
-         $ExcelFile        ,[parameter(Mandatory=$true)]
+         $ExcelFile        
+        ,[parameter(Mandatory=$true)]
          [Boolean]
          $applyAML
         ,[parameter(Mandatory=$true)]
@@ -18,7 +19,6 @@
          [String]
          $ignore_pfx
     )
-
     Set-Location $sd
     .\Get-PropItems.ps1 # returns hash table of properties of type Item for the currrent sheet
 
