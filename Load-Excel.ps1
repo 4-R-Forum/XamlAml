@@ -1,37 +1,29 @@
-﻿function Get-ScriptDirectory{
-    # like https://blogs.msdn.microsoft.com/powershell/2007/06/19/get-scriptdirectory-to-the-rescue/
-    # this script wants to find files in the same folder
-    $Invocation = (Get-Variable MyInvocation -Scope 1).Value
-    try {
-        Split-Path $Invocation.MyCommand.Path -ea 0
-    }
-    catch {
-        Write-Warning 'You need to call this function from within a saved script.'
-    }
-}
-# set location. include scripts, and set variables
-$sd = Get-ScriptDirectory
-Set-Location $sd
-.\Create-XamlForm.ps1  # function that implements the GUI
+﻿function Global:Load-Excel {
+    Param(
+         [parameter(Mandatory=$true)]
+         [String]
+         $sd
+        ,[parameter(Mandatory=$true)]
+         [String]
+         $ExcelFile        ,[parameter(Mandatory=$true)]
+         [Boolean]
+         $applyAML
+        ,[parameter(Mandatory=$true)]
+         [String]
+         $output
+        ,[parameter(Mandatory=$true)]
+         [Object]
+         $innov
+        ,[parameter(Mandatory=$true)]
+         [String]
+         $ignore_pfx
+    )
 
-#.\Get-PropItems.ps1    # returns hashtable with properties of type Item for a sheet
-#.\Connect-IOM.ps1      # returns an Aras.Innovator object with authenticated connection to the server
+    Set-Location $sd
+    .\Get-PropItems.ps1 # returns hash table of properties of type Item for the currrent sheet
 
-$xamlFile =   $sd + '\MainWindow.xaml'
-$iom =        $sd + '\iom.dll' # iom must match server service pack
-$configFile = $sd + '\config.xml'
-[xml]$config =  Get-Content $configFile 
-#$innov = $null   # global variable to be populated by Create-XamlForm, Aras.IOM.Innovator object
-#$output = $null  # global variable to be populated by Create-XamlForm, location to write AML
-#$xl = $null  #global variable to be populated by Create-XamlForm, Excel book to be loaded
-#$pf_col = $null  # global variable to be populated by Get-PropItems, physical_file column number
-#$applyAML =$True #global variable updated by Create-XamlForm
-#$output = #null
-#$regex1 = "([a-z0-9_]*)\(([a-z0-9_]*)\)" # used to parse property names
-
-# function Load-Excel is called by $Form
-<#
-function Global:Load-Excel {
+    $xl = Open-ExcelPackage -Path $ExcelFile
+    $regex1 = "([a-z0-9_]*)\(([a-z0-9_]*)\)" # used to parse property names
     $sht_ct= $xl.Workbook.Worksheets.Count
     if (! $applyAML) {Add-content $output -Value "<AML>" } # open aml
     For ($s=1; $s -le $sht_ct; $s++) # for each sheet
@@ -43,7 +35,7 @@ function Global:Load-Excel {
             $col_ct = $this_sht.Dimension.Columns
             # ///TODO error if Dimension is wrong
             #Get-PropItems gets column names and types for properties of type Item in this sheet
-            $propTypes= Get-PropItems -this_sht $this_sht 
+            $propTypes= Get-PropItems -this_sht $this_sht -innov $innov
 
             # step 5.4 iterate across sheets, and their rows to load data
             for ($r = 2 ; $r -le $row_ct; $r++) # for each row
@@ -74,7 +66,7 @@ function Global:Load-Excel {
                                      # it creates a new File Item, with new guid created automatically,  #
                                      # and Located relationship with id of vault for user.               #
                                      # physical file will be loaded, which cannot be done with AML alone #
-                                     # any File replaced may be orphaned                                 #
+                                     # any File replaced may be orphaned                                 #>
                                     $filepath =   $this_sht.Cells[$r,$Global:pf_col].Value
                                     $this_item.setFileProperty("primary_file",$filepath)
                                 }
@@ -96,9 +88,6 @@ function Global:Load-Excel {
         }
     }
     if (! $applyAML) {Add-content $output -Value "</AML>" } # close aml
-    
+    Close-ExcelPackage -ExcelPackage $xl -NoSave # close the Excel File, to release it. File will not open with other apps if not closed here.   
  }
- #>
-# show the Xaml GUI
-$Form = Create-XamlForm -sd $sd -xaml $xamlFile -iom $iom -config $config
-$Form.ShowDialog() | Out-Null
+ 

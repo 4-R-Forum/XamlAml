@@ -3,7 +3,10 @@
          [parameter(Mandatory=$true)]
          [Object]
          $this_sht
-    )  
+        , [parameter(Mandatory=$true)]
+         [Object]
+         $innov
+    )        
     # put column names like property_name(Type) in comma separated_list
     # to be used in AML property condition attribute
     $prop_names = "" # comma delimited list of properties of type Item
@@ -21,7 +24,7 @@
     }
     if ($prop_names -ne "") # get properties of type Item and find data_sources, if any 
     {
-        $this_type = $Global:innov.newItem("ItemType","get")
+        $this_type = $innov.newItem("ItemType","get")
         $this_type.setProperty("name", $this_sht.Name)
         $this_type.setAttribute("select", "is_relationship")
         $this_type_rel = $innov.newItem("Property","get")
