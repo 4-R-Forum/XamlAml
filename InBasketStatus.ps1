@@ -12,14 +12,15 @@
 # set location. include scripts, and set variables
 $sd = Get-ScriptDirectory
 Set-Location $sd
-.\ExceLoader\Create-XamlAmlForm.ps1  # function that implements the GUI
+.\ExcelReport\Create-XamlInBasket.ps1 # function that implements the GUI
 
 # create parameters to pass to XamlForm
-$xamlFile =   $sd + '\ExceLoader\XamlAml.xaml'
-$configFile = $sd + '\config.xml'
+ $xamlFile =   $sd + '\ExcelReport\XamlInBasket.xaml'
+#$iom =        $sd + '\v12SP3\iom.dll' # iom must match server service pack
+$configFile = $sd + '\ExcelReport\config.xml'
 
 # show the Xaml GUI
-$Form = Create-XamlAmlForm -sd $sd -xaml $xamlFile -configFile $configFile
+$Form = Create-XamlInBasket -sd $sd -xaml $xamlFile -configFile $configFile
 try {
     $Form.ShowDialog() | Out-Null
 }
@@ -27,5 +28,6 @@ catch {
   Write-Host $_
 }
 finally {
+    pause
     $Form.Close()
 }

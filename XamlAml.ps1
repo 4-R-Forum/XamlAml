@@ -12,20 +12,13 @@
 # set location. include scripts, and set variables
 $sd = Get-ScriptDirectory
 Set-Location $sd
-.\ExceLoader\Create-XamlAmlForm.ps1  # function that implements the GUI
+.\Create-XamlAmlForm.ps1 # function that implements the GUI
 
 # create parameters to pass to XamlForm
-$xamlFile =   $sd + '\ExceLoader\XamlAml.xaml'
+$xamlFile =   $sd + '\XamlAml.xaml'
+$iom =        $sd + '\12SP3\iom.dll' # iom must match server service pack
 $configFile = $sd + '\config.xml'
 
 # show the Xaml GUI
-$Form = Create-XamlAmlForm -sd $sd -xaml $xamlFile -configFile $configFile
-try {
-    $Form.ShowDialog() | Out-Null
-}
-catch {
-  Write-Host $_
-}
-finally {
-    $Form.Close()
-}
+$Form = Create-XamlAmlForm -sd $sd -xaml $xamlFile -iom $iom -configFile $configFile
+$Form.ShowDialog() | Out-Null
