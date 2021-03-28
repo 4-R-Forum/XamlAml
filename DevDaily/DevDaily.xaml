@@ -1,0 +1,65 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:collections="clr-namespace:System.Collections;assembly=mscorlib" Title="Aras Practitioner Tools - Configuration Manager - Powershell with Xaml GUI" Height="800px" Width="1125px"
+        Name = "wMain"
+        >
+        <Window.Resources>
+             <ResourceDictionary>
+                <ResourceDictionary.MergedDictionaries>
+                    <ResourceDictionary Source="C:\Repos\B-52-V12\Posh-Tools\Themes\ShinyRed.xaml" /> 
+                </ResourceDictionary.MergedDictionaries>
+                <Style TargetType="{x:Type Label}">
+                <Setter Property="Foreground" Value="Black"/>
+                </Style>
+             </ResourceDictionary>
+         </Window.Resources>
+				 <DockPanel>
+        <Menu DockPanel.Dock="Top">
+ 						<MenuItem Header="_Update Package and Export" >
+                <MenuItem Name="miRefresh" Header="Refresh Grid" /> 
+                <MenuItem Name="miAddToPackage" Header="Add Selected Rows to Package" />
+                <MenuItem Name="miRemoveFromPackage" Header="Remove Selected Rows From Package" />
+                <MenuItem Name="miAuditPackage" Header="Audit Package" />
+               <Separator />
+                <MenuItem Name="miExportSelected" Header="EXPORT Selected Rows" />
+            </MenuItem>
+ 						<MenuItem Header="_Other Tools" >
+                <MenuItem Name="miGitK" Header="Open GitK" />
+                <MenuItem Name="miBeyondCompare" Header="Open BeyondCompare" />
+                <MenuItem Name="miNUnit" Header="Open NUnit" />
+                <MenuItem Name="miExportTool" Header="Open Aras Export Tool" />
+            </MenuItem>
+            <MenuItem Header="_Help">
+              <MenuItem Header="About"/>
+              <MenuItem Header="Online Help" />
+            </MenuItem>
+                        <MenuItem  Header="_Close App">
+              <MenuItem Header="Exit" Name="miExit" />
+            </MenuItem>
+
+        </Menu>
+        <StackPanel Orientation="Vertical"  DockPanel.Dock="Top">
+          <StackPanel Orientation="Horizontal">
+            <Label Name="lPackage">Package Name</Label>
+            <TextBox Name ="tbPackage" Width="400px"></TextBox>
+          </StackPanel>
+          <StackPanel Orientation="Horizontal">
+            <Label Name="lCommit">Compare DateTime</Label>
+             <TextBox Name ="tbCompareDateTime" Width="400px"></TextBox>
+             <Label Name="lDefault">Defaults to Last Commit</Label>
+          </StackPanel>
+          <StackPanel Orientation="Horizontal">
+            <Label Name="lAltSource">Alternate Source</Label>
+          </StackPanel>
+        </StackPanel>
+        <StackPanel Orientation="Vertical">
+            <Label Name="lRepo" FontWeight="Bold" >Grid shows changes in local Database since Compare Date : </Label>
+
+            <DataGrid Name="dataGrid1"   AutoGenerateColumns="True" Height="600px" >
+
+            </DataGrid>
+
+        </StackPanel>
+
+    </DockPanel>
+</Window>
