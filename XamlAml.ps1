@@ -25,3 +25,4 @@ if ([string]::IsNullOrEmpty($dbList_iom )) { $dbList_iom= $config.selectSingleNo
 # show the Xaml GUI
 $Form = Create-XamlAmlForm -sd $sd -xaml $xamlFile -dbList_iom $dbList_iom -configFile $configFile
 $Form.ShowDialog() | Out-Null
+pause

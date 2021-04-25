@@ -1,10 +1,12 @@
-EXELOADER RELEASE NOTES AND DEPLOYMENT GUIDE
+XAMLAML RELEASE NOTES AND DEPLOYMENT GUIDE
 ==============================================
 
 Release Notes
 
 v0.1 01/05/2021
 	set $iom and $ExcelFile to script directory, added config.xml file
+v0.2 04/23/2021
+	renamed and refactored from v0.1 ExceLoader and ExcelReports share IOM connnection and config files
 	
 Deployment
 
@@ -27,13 +29,16 @@ Deployment
 		-> PS prompt
 		Import-Excel Module is installed
 		
-Using ExcelLoader
+Using XamAml
 
-101)	Locate the script ExceLoader.ps1 in File Explorer
-102)	Right click and run with PowershellISE.exe, press F5 to run it /// TODO double click -> error
-103)	-> XAML Gui opens
-			Click Excel File button with ellipsis [...] at right
-				use dialog to select Excel file
+101)	Read README.md in repo for orientation
+102)Locate the script XamlAml.ps1 in File Explorer
+103)	DoubleClick, or right click and run with Powershell, to run it -> XAML Gui opens
+104)	Select fuction tab at top, ExceLoader or ExcelReport -> different input form is presented
+
+ExceLoader 
+105)	Click Excel File button with ellipsis [...] at right
+				use dialog to select Excel file to import
 			If output to AML is required
 				Check Output AML box
 				Click Output AML button with ellipsis [...] at right
@@ -43,13 +48,26 @@ Using ExcelLoader
 			Enter login name
 			Enter password
 			Click Load button
-104)	-> Exceloader runs
+			-> Exceloader runs
 			Any errors will be reported in Powershell window
 			Status: Finished will show below Load button to indicate process is finished
 			Config file will save data from form for next use
-105)	Click Exit button to close window
+
+ExcelReport
+106)	Click Excel File button with ellipsis [...] at right
+				use dialog to select Report Script, with .ps1 ext, to run
+				(Report Scripts are prepared by competent authors for use by others)
+			Click Report File button with ellipsis [...] at right
+				use dialog to select the folder and file for Excel Output
+			Enter url, login credentials, and db, same as 103)
+			Click Load button
+			-> ExcelReport opens in Excel
+			Any errors will be reported in Powershell window
+			Status: Finished will show below Load button to indicate process is finished
+			
+107)	Click Exit button to close window
 			Powershell window closes
 			
 			
-Jon Hodge 1/05/2021
+Jon Hodge 04/23/2021
 			
