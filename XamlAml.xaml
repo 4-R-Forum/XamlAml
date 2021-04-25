@@ -1,9 +1,52 @@
 ﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        Title="[R.R.R.R.] XamlAml" Height="450" Width="800">
+        Title="[R.R.R.R.] XamlAML" Height="450" Width="800">
+				
 	<StackPanel HorizontalAlignment="Left" Height="371" Margin="15,10,0,0" VerticalAlignment="Top" Width="750">
+			<TabControl Name="tcFunctions" TabStripPlacement="Top" Width="auto"  Height="auto">
+			<TabItem Name="ExceLoader" Header="ExceLoader">
+				<StackPanel>
+					<StackPanel Orientation="Horizontal" Height="25px">
+						<Label Name="lExcelFile" Content="Excel File" Width="100px"/>
+						<TextBox Text="Select Excel with button at right" Name ="tbExcelFile" Width="400px"/>
+						<Button Name="bExcelFile" Content="..." Width="30px"/>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal" Height="25px">
+						<Rectangle Width="100px"/>
+						<Label Content="Ignore columns starting with " Width="200px"  />
+						<TextBox Name= "tbIgnore" Width="100px" >_</TextBox>
+					</StackPanel>       
+					<StackPanel Orientation="Horizontal" Height="25px">
+						<Label Name="lAMLFile" Content="Output AML" Width="80px"/>
+						<CheckBox Name="cbApplyAML" Width="20px" VerticalAlignment="Center"/>
+						<TextBox Text="Check box at left, and select file with button at right" Name="tbAMLFile" Width="400px"/>
+						<Button Name="bAMLFile" Content="..." Width="30px"/>
+					</StackPanel>
+				</StackPanel>
+			</TabItem>
+			<TabItem Name="ExcelReport" Header="ExcelReport">
+				<StackPanel>
+					<StackPanel Orientation="Horizontal" Height="25px">
+						<Label Name="lReportScript" Content="Report Script" Width="100px"/>
+						<TextBox Text="Select script with button at right" Name ="tbReportScript" Width="400px"/>
+						<Button Name="bReportScript" Content="..." Width="30px"/>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal" Height="25px">
+						<Label Name="lReportName" Content="Report File" Width="100px"/>
+						<TextBox Text="Enter filename, or select with button at right" Name ="tbReportName" Width="400px"/>
+						<Button Name="bReportName" Content="..." Width="30px"/>
+					</StackPanel>
+					<StackPanel>
+						<Rectangle Height="25px" />
+					</StackPanel>
+				</StackPanel>
+			</TabItem>
+		</TabControl>
+		<StackPanel>
+			<Rectangle Height="20px" />
+		</StackPanel>
 		<StackPanel Orientation="Horizontal">
 			<Label Name="lSDKIOM" Content="SDK IOM" Width="100px"/>
-			<TextBox Text="Select SDK IOM with button at right" Name ="tbSDKIOM" Width="400px"/>
+			<TextBox Text="Select SDK IOM dll with button at right" Name ="tbSDKIOM" Width="400px"/>
 			<Button Name="bSDKIOM" Content="..." Width="30px"/>
 		</StackPanel>
 		<StackPanel>
@@ -29,6 +72,10 @@
 		<StackPanel>
 			<Rectangle Height="10px" />
 		</StackPanel>
+
+		<StackPanel>
+			<Rectangle Height="20px" />
+		</StackPanel>
 		<StackPanel Orientation="Horizontal">
 			<Rectangle Width="100px" />
 			<Button Content="Help" Width="100px"/>
@@ -39,33 +86,11 @@
 		</StackPanel>
 		<StackPanel Orientation="Horizontal">
 			<Rectangle Width="255px" />
-			<Label Name="lStatus" Content="Status: Ready" Width="100px" />				 
+			<Label Name="lStatus" Content="Status: Ready" Width="150px" />				 
 		</StackPanel>
-		<TabControl Name="tcFunctions" TabStripPlacement="Bottom" Width="auto"  Height="auto">
-			<TabItem Header="Nash+">
-<StackPanel  Orientation="Horizontal" Height="100px">
-<TextBlock Name="AML" Text="AML" Width="300px"/>
-<TextBlock Name="Result" Text="Result" Width="300px"/>
-</StackPanel>
-			</TabItem>
-			<TabItem Header="ExcelReport">
-				<StackPanel Orientation="Horizontal" Height="100px">
-					<Label Name="lReportDef" Content="Report Definition" Width="100px"/>
-					<TextBox Text="Select Report Definition with button at right" Name ="tbReportDef" Width="400px"/>
-					<Button Name="bReportDef" Content="..." Width="30px"/>
-				</StackPanel>
-			</TabItem>
-			<TabItem Header="ExceLoader">
-				<StackPanel Orientation="Horizontal" Height="100px">
-					<Label Name="lExcelFile" Content="Report Definition" Width="100px"/>
-					<TextBox Text="Select Excel with button at right" Name ="tbExcelFile" Width="400px"/>
-					<Button Name="bExcelFile" Content="..." Width="30px"/>
-				</StackPanel>
-			</TabItem>
-		</TabControl>
 		<StackPanel Orientation="Horizontal">
 			<Rectangle Width="200px" />
-			<Label Content="powered by Powershell, Aras.IOM and OpenXML" FontSize="16"  />
+			<Label Content="powered by: Aras Innovator®, Xaml, Powershell and OpenXML" FontSize="16"  />
 		</StackPanel>
 	</StackPanel>
 </Window>

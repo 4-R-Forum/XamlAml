@@ -1,4 +1,544 @@
 <AML>
-<Item isNew="1" isTemp="1" type="Document" action="add" id="66B1F06868FD468A86E9E34C4B2E016B"><name>test1</name><classification>Document Type/PLI/Report</classification><primary_file><Item isNew="1" isTemp="1" type="File" action="add" id="1319B6231A8944E6B4A7B7B327A71A6F"><filename>Test1.txt</filename><actual_filename>C:\Users\ghodg\OneDrive - Anautics, Inc\Workspace\2021Projects\ExceLoader\Test1.txt</actual_filename><checkedout_path>C:\Users\ghodg\OneDrive - Anautics, Inc\Workspace\2021Projects\ExceLoader</checkedout_path><Relationships><Item type="Located" action="add" where="related_id='67BBB9204FE84A8981ED8313049BA06C'"><related_id>67BBB9204FE84A8981ED8313049BA06C</related_id></Item></Relationships></Item></primary_file><mh_cage_code>USAF-TAFB</mh_cage_code><mh_stinfo>No</mh_stinfo><mh_intellectual_property>No</mh_intellectual_property><ipt_team><Item isNew="1" isTemp="1" type="IPT Team" action="get"><name>Digital Engineering</name></Item></ipt_team></Item>
-<Item isNew="1" isTemp="1" type="Document" action="add" id="C757161821644721A13B272D9FB6B4EB"><name>test2</name><classification>Document Type/PLI/Report</classification><primary_file><Item isNew="1" isTemp="1" type="File" action="add" id="C72004D7230B4AE0BBDB82E1CBF86F7C"><filename>Test2.txt</filename><actual_filename>C:\Users\ghodg\OneDrive - Anautics, Inc\Workspace\2021Projects\ExceLoader\Test2.txt</actual_filename><checkedout_path>C:\Users\ghodg\OneDrive - Anautics, Inc\Workspace\2021Projects\ExceLoader</checkedout_path><Relationships><Item type="Located" action="add" where="related_id='67BBB9204FE84A8981ED8313049BA06C'"><related_id>67BBB9204FE84A8981ED8313049BA06C</related_id></Item></Relationships></Item></primary_file><mh_cage_code>USAF-TAFB</mh_cage_code><mh_stinfo>No</mh_stinfo><mh_intellectual_property>No</mh_intellectual_property><ipt_team><Item isNew="1" isTemp="1" type="IPT Team" action="get"><name>Digital Engineering</name></Item></ipt_team></Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="56C9B78B069F440D9945FE2A191252CB">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2019</year>
+		<tags>Culture</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Development of Complex level robotic training</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>WR-ALC</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="6C98A54FF44343BC82334AE9E57B1B75">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2019</year>
+		<tags>Culture</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>CMXG Training Robot</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>WR-ALC</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="4200D686A128420DAD228DF11F05ABA8">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2019</year>
+		<tags>Culture</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Maintenance robotic team stand up</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>402 MXSG</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="BA8FF074F6694F16AD620F3E9FEB41DD">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2020</year>
+		<tags>Culture</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Continue robotic acceptance/familiarization training for all Depot employees and look for additional robotic opportunities</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>WR-ALC</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="5A9A3C6A3B3145FF8CE83A0B797E8E28">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2021</year>
+		<tags>Culture</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Continue robotic acceptance/familiarization training for all Depot employees and look for additional robotic opportunities</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>WR-ALC</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="34431E5A8548461EBA7F69E0B3C769C1">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2022</year>
+		<tags>Culture</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Continue robotic acceptance/familiarization training for all Depot employees and look for additional robotic opportunities</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>WR-ALC</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="7CFC19FD8A9D49A2A0377D8C3C3D618A">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2023</year>
+		<tags>Culture</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Continue robotic acceptance/familiarization training for all Depot employees and look for additional robotic opportunities</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>WR-ALC</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="50C3063965894BC68053624AFC740645">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2024</year>
+		<tags>Culture</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Continue robotic acceptance/familiarization training for all Depot employees and look for additional robotic opportunities</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>WR-ALC</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="4540D1E411904D55AC0F9C828E12656E">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2022</year>
+		<tags>Culture</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Develop “Robotic Operator” job series, with progressive steps as certifications are reached</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>402 CMXG</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="34CA29B351DC4ECDA0CA45EC81B71396">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2020</year>
+		<tags>Technology</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>The first Co-Bot used in an Air Force production environment </task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>402 CMXG</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="A85D2496152E48E6841E1DCE81F90CAA">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2022</year>
+		<tags>Technology</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>AMXG A5 Robot for sanding and X-Ray</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>402 AMXG</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="C06B67EB553A4A02A9C493CEA671C690">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2022</year>
+		<tags>Technology</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>AMXG Mobile Laser Robot</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>402 AMXG</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="E5F3E9EF0E5449C2A62E9B304DAA8891">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2020</year>
+		<tags>Technology</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>AMXG Mobile Laser Robot</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>402 CMXG</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="6A0960AA00294231A68B40561DC58565">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2021</year>
+		<tags>Technology</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Autonomous path planning becoming the standard for Depot robotics</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>402 CMXG</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="2260F06DD501475AA559B28549477C0E">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2020</year>
+		<tags>Technology</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Build AI to begin identifying items/defects</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>402 CMXG</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="8E876FFCFC8C4648BF01219F281C8285">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2019</year>
+		<tags>Technology</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Build AI to begin identifying items/defects</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>402 CMXG</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="622E90AA477C45D5867D4EFC3AB30C00">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2019</year>
+		<tags>Technology</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Test deep learning and process models on production robots</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>402 CMXG</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="2AD8EF6635F14D87AC2334D0FE574C0E">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2021</year>
+		<tags>Technology</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Build AI to quickly produce 3D models</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>402 CMXG</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="CDD776D151E0436DAA2AD28818334923">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2019</year>
+		<tags>Technology</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>The first mobile robots used in an Air Force production environment</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>402 CMXG</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="E9A70D2C3A5F4761B22026C881155795">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2021</year>
+		<tags>Technology</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Continue to implement robotic solutions with the latest technological advancements</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>WR-ALC</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="DC7644951ABD4B659FC190534AED3FF5">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2022</year>
+		<tags>Technology</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Continue to implement robotic solutions with the latest technological advancements</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>WR-ALC</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="9978079DBD754F91BE70E65AD0212B40">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2023</year>
+		<tags>Technology</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Continue to implement robotic solutions with the latest technological advancements</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>WR-ALC</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="26EBC76CD340425F80BC445F6B91EC72">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2024</year>
+		<tags>Technology</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Continue to implement robotic solutions with the latest technological advancements</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>WR-ALC</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="EEC6AA716C7140068455FD3EC9970BF6">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2021</year>
+		<tags>Technology</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>MXSG Training Robot</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>402 EMXG</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="19253E4EBF694200895D6B9EDCFB16FE">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2021</year>
+		<tags>Technology</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Evaluate different path
+planning options and determine how to standardize</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>402 CMXG</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="84A960AC3CC348318558F581D81A6CF9">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2022</year>
+		<tags>Technology</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Evaluate different path
+planning options and determine how to standardize</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>402 CMXG</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="90F8F9D534B0497FADE9E72B8D2D407F">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2022</year>
+		<tags>Cyber Security</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Develop a secure industrial network</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>WR-ALC</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="92A3F2FCB6D340F9A8E0E6D32D8E62B7">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2021</year>
+		<tags>Cyber Security</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Complete Industrial Robotics RMF boundary</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>402 CMXG</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="E88D790C2B214EFD9D06CF41343C2104">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2020</year>
+		<tags>Cyber Security</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Develop an industrial control set of cyber policies and procedures</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>402 CMXG</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
+	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="7CD0925EF88A4F5A99080281F18A84F3">
+		<reference>WR-ALC Robotics RoadMap_v3</reference>
+		<year>2019</year>
+		<tags>Cyber Security</tags>
+		<capability>
+			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
+				<name>Robotics</name>
+			</Item>
+		</capability>
+		<task_text>Specify new equipment to meet RMF guidelines</task_text>
+		<sponsor_org>
+			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
+				<name>402 CMXG</name>
+			</Item>
+		</sponsor_org>
+		<location>RAFB</location>
+		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	</Item>
 </AML>

@@ -15,7 +15,7 @@
     )
     #==============================================================================================
     # example from:https://docs.microsoft.com/en-us/archive/blogs/platformspfe/integrating-xaml-into-powershell/
-    # XAML file created in Visual Studio WPF Application, and saved in script folder.
+    # XAML file created in text editor or Visual Studio WPF Application, and saved in script folder.
     # See blog for namespaces used by Visual Studio that need to be removed!
     #==============================================================================================
     # also https://stackoverflow.com/questions/27791783/powershell-unable-to-find-type-system-windows-forms-keyeventhandler
@@ -72,10 +72,24 @@
         $Global:config.selectSingleNode("config/dbase").InnerText =  $tbDbase.Text
         $Global:config.selectSingleNode("config/user").InnerText =  $tbUser.Text
         $Global:config.Save($configFile)
-        $lStatus.Content = "Status: Loading ..."
+
+        $s = $tcFunctions.SelectedItem
+        $lStatus.Content = ("Status: Executing " + $s + " ...")
         $Form.UpdateLayout()
+
         $innov = Connect-IOM -iom $iom -url $tbUrl.Text -dbase $tbDbase.Text -user  $tbUser.Text -pw $pwbPw.Password
-        Load-Excel -sd $sd -ExcelFile $tbExcelFile.Text -applyAML $Global:ApplyAML -output $tbAMLFile.Text -innov $innov -ignore_pfx  $ignore_pfx
+        switch ($s)
+        {
+            "ExceLoader" {
+                 Load-Excel -sd $sd -ExcelFile $tbExcelFile.Text -applyAML $Global:ApplyAML -output $tbAMLFile.Text -innov $innov -ignore_pfx  $ignore_pfx
+            }
+            Default {
+                $s
+
+            }
+
+        }
+
         $lStatus.Content = "Status: Finished"
     }
 

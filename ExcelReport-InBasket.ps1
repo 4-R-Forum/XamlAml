@@ -1,19 +1,16 @@
 ﻿function Global:ExcelReport-InBasket {
     Param(
          [parameter(Mandatory=$true)]
-         [String]
-         $sd
-        ,[parameter(Mandatory=$true)]
          [Object]
          $innov
+        ,[parameter(Mandatory=$true)]
+         [String]
+         $report_uri
     )
-    Set-Location $sd
-
 # Sample code from https://github.com/dfinke/ImportExcel/blob/master/Examples/PivotTable/TableAndPivotTable.ps1
 
 # Delete existing sheet
-$xlReportFile = "$sd\InBasketReport.xlsx"
-Remove-Item $xlReportFile -ErrorAction Ignore
+Remove-Item $report_uri -ErrorAction Ignore
 
 # create Excel Workbook
 $excel = Export-Excel -PassThru -Path  $xlReportFile
@@ -57,6 +54,6 @@ $source_range = $xl.Dimension.Address
 Add-PivotTable -PivotTableName InBasketStatus -Activate -Address $pivot.Cells["A1"] -PassThru -PivotColumns Status -PivotData Task -PivotRows Assigned -PivotTotals Rows -SourceRange $source_range -SourceWorksheet $xl
 #Save and open in excel
 Select-Worksheet -ExcelPackage $excel -WorksheetName InBasketStatus
-Close-ExcelPackage $excel  $xlReportFile -Show 
+Close-ExcelPackage $excel  $report_uri -Show 
  }
  

@@ -1,0 +1,74 @@
+Folder PATH listing for volume Windows
+Volume serial number is AA63-9A0D
+C:.
+|   .gitignore
+|   aml.xml
+|   config.xml
+|   Connect-IOM.ps1
+|   Create-XamlAmlForm.ps1
+|   Create-XamlForm.ps1
+|   Create-XamlInBasket.ps1
+|   Dev-Daily.ps1
+|   ExceLoader.ps1
+|   ExcelReport-InBasket.ps1
+|   Get-DbList.ps1
+|   Get-PropItems.ps1
+|   InBasketReport.xlsx
+|   InBasketStatus.ps1
+|   IOM.dll
+|   LICENSE
+|   Load-Excel.ps1
+|   MainWindow.xaml
+|   README.md
+|   ReleaseAndDeploymentGuide.txt
+|   tree.txt
+|   XamlAml.ps1
+|   XamlAml.xaml
+|   XamlInBasket.xaml
+|   
++---12SP3
+|       IOM.dll
+|       
++---DevDaily
+|       config-devdaily.xml
+|       CreateXaml-DevDaily.ps1
+|       DevDaily.xaml
+|       Get-Changes.ps1
+|       Menu-Functions.ps1
+|       
++---ExceLoader
+|       Create-XamlAmlForm.ps1
+|       Get-PropItems.ps1
+|       Load-Excel.ps1
+|       XamlAml.xaml
+|       
++---ExcelReport
+|       config.xml
+|       Create-XamlInBasket.ps1
+|       ExcelReport-InBasket.ps1
+|       XamlInBasket.xaml
+|       
++---shared
+|       Connect-IOM.ps1
+|       Get-DbList.ps1
+|       
++---v12SP12
+|       IOM.dll
+|       
+\---v12SP3
+    |   IOM.dll
+    |   
+    +---Export
+    |   |   config.xml
+    |   |   export.exe
+    |   |   IOM.dll
+    |   |   Libs.dll
+    |   |   
+    |   \---log
+    \---Import
+        |   config.xml
+        |   import.exe
+        |   IOM.dll
+        |   Libs.dll
+        |   
+        \---log

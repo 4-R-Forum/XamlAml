@@ -16,9 +16,12 @@ Set-Location $sd
 
 # create parameters to pass to XamlForm
 $xamlFile =   $sd + '\XamlAml.xaml'
-$iom =        $sd + '\12SP3\iom.dll' # iom must match server service pack
 $configFile = $sd + '\config.xml'
+[xml]$Global:config =  Get-Content $configFile
+# getDBList needs to use IOM before Xaml form can select IOM matching target url, use a default for getDBList
+$dbList_iom = $config.selectSingleNode("config/SDKIOM").'#text'
+if ([string]::IsNullOrEmpty($dbList_iom )) { $dbList_iom= $config.selectSingleNode("config/defaultIOM").'#text' }
 
 # show the Xaml GUI
-$Form = Create-XamlAmlForm -sd $sd -xaml $xamlFile -iom $iom -configFile $configFile
+$Form = Create-XamlAmlForm -sd $sd -xaml $xamlFile -dbList_iom $dbList_iom -configFile $configFile
 $Form.ShowDialog() | Out-Null
