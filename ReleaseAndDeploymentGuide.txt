@@ -17,8 +17,8 @@ Deployment
 		type Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted and press enter
 		->  Do you want to change the execution policy?
 		press Y
-		-> PS prompt, you can now run scripts on this machine, may need to be repeated in VDI
-4) Install the Import-Excel module from Powershell Gallery, may need to be repeated in VDI
+		-> PS prompt, you can now run scripts on this machine, (may need to be re-run in virtual desktop environments)
+4) Install the Import-Excel module from Powershell Gallery, (may need to be re-run in virtual desktop environments)
 		Open link created in step 2
 		-> Blue powershell window opens with PS prompt
 		type Install-Module -Name ImportExcel -Scope CurrentUser and press enter->
@@ -32,19 +32,21 @@ Deployment
 Using XamAml
 
 101)	Read README.md in repo for orientation
-102)Locate the script XamlAml.ps1 in File Explorer
+102)  Locate the script XamlAml.ps1 in File Explorer
 103)	DoubleClick, or right click and run with Powershell, to run it -> XAML Gui opens
 104)	Select fuction tab at top, ExceLoader or ExcelReport -> different input form is presented
 
 ExceLoader 
 105)	Click Excel File button with ellipsis [...] at right
-				use dialog to select Excel file to import
-			If output to AML is required
+				use dialog to select Excel file to import (use ExceLoaderTest.xlsx to test)
+			If output to AML is required, alternatively import will be made directly to Innovator
 				Check Output AML box
 				Click Output AML button with ellipsis [...] at right
 				use dialog to select AML output file
+			Click the SDK IOM button with ellipsis [...] at right
+				Select the SDK IOM.dll file on your local machine (It MUST be the SDK IOM for the release and SP for the destination ulr, no other dll will work! )
 			Edit Target Server Url, in the form http://server/WebAlias/
-			Enter the DataBase name ([...] button not implemented yet)
+			Enter the DataBase name ([...] to select database for the selected url)
 			Enter login name
 			Enter password
 			Click Load button
@@ -59,6 +61,7 @@ ExcelReport
 				(Report Scripts are prepared by competent authors for use by others)
 			Click Report File button with ellipsis [...] at right
 				use dialog to select the folder and file for Excel Output
+				Select the folder and enter a new filename for a new file
 			Enter url, login credentials, and db, same as 103)
 			Click Load button
 			-> ExcelReport opens in Excel
@@ -66,8 +69,15 @@ ExcelReport
 			Status: Finished will show below Load button to indicate process is finished
 			
 107)	Click Exit button to close window
-			Powershell window closes
+			Powershell window shows any error messages, and "Press Enter to continue ...:"
+			Press Enter
+			-> Powershell window closes
+108)	Check results
+				You can use ExcelReport to test the result of  ExcelLoaderTest
+
+Known issues:
+
+201)	Help button not implemented yet.			
 			
-			
-Jon Hodge 04/23/2021
+Jon Hodge 05/01/2021
 			
