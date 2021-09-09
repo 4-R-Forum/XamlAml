@@ -3,9 +3,13 @@
          [parameter(Mandatory=$true)]
          [Object]
          $this_sht
-        , [parameter(Mandatory=$true)]
+        ,[parameter(Mandatory=$true)]
          [Object]
          $innov
+        ,[parameter(Mandatory=$true)]
+         [Object]
+         $ignore_pfx
+
     )        
     # put column names like property_name(Type) in comma separated_list
     # to be used in AML property condition attribute
@@ -14,12 +18,14 @@
     for ($c = 1; $c -le $col_ct; $c++) # for each column
     {
         $this_col_name = $this_sht.Cells[1, $c].Value
-        if ($this_col_name -eq "physical_file") { $Global:pf_col =  $c} # save physical_file column for this sheet
-        if ($this_col_name -match $regex1) # add to list of properties of type item
-        {           
-            $prop= [regex]::match($this_col_name, $regex1).Groups[1].Value # ///TODO function
-            if ($prop_names -ne "") {$prop_names += ","}
-            $prop_names += ("'" + $prop + "'")            
+        if (-not ($this_col_name.StartsWith($ignore_pfx))) {
+            if ($this_col_name -eq "physical_file") { $Global:pf_col =  $c} # save physical_file column for this sheet
+            if ($this_col_name -match $regex1) # add to list of properties of type item
+            {           
+                $prop= [regex]::match($this_col_name, $regex1).Groups[1].Value # ///TODO function
+                if ($prop_names -ne "") {$prop_names += ","}
+                $prop_names += ("'" + $prop + "'")            
+            }
         }
     }
     if ($prop_names -ne "") # get properties of type Item and find data_sources, if any 
