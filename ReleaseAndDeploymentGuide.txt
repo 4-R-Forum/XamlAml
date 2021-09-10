@@ -7,6 +7,8 @@ v0.1 01/05/2021
 	set $iom and $ExcelFile to script directory, added config.xml file
 v0.2 04/23/2021
 	renamed and refactored from v0.1 ExceLoader and ExcelReports share IOM connnection and config files
+v0.2 09/10/2021
+	updated handling for Properties of type File
 	
 Deployment
 
@@ -44,7 +46,8 @@ ExceLoader
 				Click Output AML button with ellipsis [...] at right
 				use dialog to select AML output file
 			Click the SDK IOM button with ellipsis [...] at right
-				Select the SDK IOM.dll file on your local machine (It MUST be the SDK IOM for the release and SP for the destination ulr, no other dll will work! )
+				Select the SDK IOM.dll file on your local machine
+				The SDK is preferred, but not available to open source users. The alternative is to select IOM in a local install, at Innovator/Server/bin
 			Edit Target Server Url, in the form http://server/WebAlias/
 			Enter the DataBase name ([...] to select database for the selected url)
 			Enter login name
@@ -77,7 +80,8 @@ ExcelReport
 
 Known issues:
 
-201)	Help button not implemented yet.			
+201)	Help button not implemented yet.	
+202)	Validation for Excel File data before loading will be as significant benefit		
 			
-Jon Hodge 05/01/2021
+Jon Hodge 09/10/2021
 			
