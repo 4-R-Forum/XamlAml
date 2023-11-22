@@ -27,7 +27,12 @@ function Global:Load-Excel {
     $sht_ct = $xl.Workbook.Worksheets.Count
     $itemtype_property_value = @{}
 
-    if (! $applyAML) { Add-content $output -Value "<AML>" }
+    if (! $applyAML) {
+        if (Test-Path $output) { 
+            Clear-Content $output
+        }
+        Add-content $output -Value "<AML>"
+    }
     For ($s = 1; $s -le $sht_ct; $s++) {
         
         $this_sht = $xl.Workbook.Worksheets[$s]
@@ -66,20 +71,26 @@ function Global:Load-Excel {
                                             $this_prop_item.setProperty($rel_prop, $this_cell_value)
                                             $this_prop_item.setAttribute("select", "id")
                                             $this_prop_item.setPropertyAttribute($rel_prop, "condition", "eq")
-                                            $this_prop_item_res = $this_prop_item.apply()
-                                            if ($this_prop_item_res.isError()) {
-                                                $this_prop_item_res.dom.OuterXml | Out-Host ; Exit
+                                            if ($applyAML){
+                                                $this_prop_item_res = $this_prop_item.apply()
+                                                if ($this_prop_item_res.isError()) {
+                                                    $this_prop_item_res.dom.OuterXml | Out-Host ; Exit
+                                                }
+                                                $item_count = $this_prop_item_res.getItemCount()
+                                                if($item_count -gt 1){
+                                                    "Query returned more than 1 item for itemtype: ${itemtype} using property ${rel_prop} with value ${this_cell_value} and attribute 'condition eq' on ${rel_prop}" | Out-Host ; Exit
+                                                }
+                                                if($item_count -eq 0){
+                                                    "Query returned 0 items for itemtype: ${itemtype} using property ${rel_prop} with value ${this_cell_value} and attribute 'condition eq' on ${rel_prop}" | Out-Host ; Exit
+                                                }
+                                                $itemtype_property_value[$key] = $this_prop_item_res.getItemByIndex(0).getProperty("id")
+                                                $this_item.setProperty($prop , $itemtype_property_value[$key]) 
                                             }
-                                            $item_count = $this_prop_item_res.getItemCount()
-                                            if($item_count -gt 1){
-                                                "Query returned more than 1 item for itemtype: ${itemtype} using property ${rel_prop} with value ${this_cell_value} and attribute 'condition eq' on ${rel_prop}" | Out-Host ; Exit
+                                            else {
+                                                $this_item.setPropertyItem($prop,$this_prop_item)
                                             }
-                                            if($item_count -eq 0){
-                                                "Query returned 0 items for itemtype: ${itemtype} using property ${rel_prop} with value ${this_cell_value} and attribute 'condition eq' on ${rel_prop}" | Out-Host ; Exit
-                                            }
-                                            $itemtype_property_value[$key] = $this_prop_item_res.getItemByIndex(0).getProperty("id")
                                         }
-                                        $this_item.setProperty($prop , $itemtype_property_value[$key]) 
+                                       # $this_item.setProperty($prop , $itemtype_property_value[$key]) 
                                     }
                                     else {
                                         <# use IOM.setFileProperty(...), special handling for type File      #

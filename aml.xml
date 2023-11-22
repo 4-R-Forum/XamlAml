@@ -1,544 +1,677 @@
 <AML>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="56C9B78B069F440D9945FE2A191252CB">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2019</year>
-		<tags>Culture</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
-			</Item>
-		</capability>
-		<task_text>Development of Complex level robotic training</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>WR-ALC</name>
-			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	<Item isNew="1" isTemp="1" type="Identity" action="add" id="E36D82D5266D4E7DACDF93449364263E">
+		<name>MD</name>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="6C98A54FF44343BC82334AE9E57B1B75">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2019</year>
-		<tags>Culture</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
-			</Item>
-		</capability>
-		<task_text>CMXG Training Robot</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>WR-ALC</name>
-			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	<Item isNew="1" isTemp="1" type="Identity" action="add" id="4821EADD79A243C892CADBBF163BDD53">
+		<name>MMD</name>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="4200D686A128420DAD228DF11F05ABA8">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2019</year>
-		<tags>Culture</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
-			</Item>
-		</capability>
-		<task_text>Maintenance robotic team stand up</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>402 MXSG</name>
-			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	<Item isNew="1" isTemp="1" type="Identity" action="add" id="BBF28130383F4AB087665AB9AEAF76B4">
+		<name>NASA</name>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="BA8FF074F6694F16AD620F3E9FEB41DD">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2020</year>
-		<tags>Culture</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
-			</Item>
-		</capability>
-		<task_text>Continue robotic acceptance/familiarization training for all Depot employees and look for additional robotic opportunities</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>WR-ALC</name>
-			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	<Item isNew="1" isTemp="1" type="Identity" action="add" id="04CD5D153A244825BBBA7F4216ECFE0D">
+		<name>AITM</name>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="5A9A3C6A3B3145FF8CE83A0B797E8E28">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2021</year>
-		<tags>Culture</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
-			</Item>
-		</capability>
-		<task_text>Continue robotic acceptance/familiarization training for all Depot employees and look for additional robotic opportunities</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>WR-ALC</name>
-			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	<Item isNew="1" isTemp="1" type="Identity" action="add" id="D36EC19DBEE140D4BCA7E606D800ECE7">
+		<name>WI</name>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="34431E5A8548461EBA7F69E0B3C769C1">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2022</year>
-		<tags>Culture</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
-			</Item>
-		</capability>
-		<task_text>Continue robotic acceptance/familiarization training for all Depot employees and look for additional robotic opportunities</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>WR-ALC</name>
-			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	<Item isNew="1" isTemp="1" type="Identity" action="add" id="31974EC49FF84302B4B2FA71C80CB48D">
+		<name>RPMI</name>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="7CFC19FD8A9D49A2A0377D8C3C3D618A">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2023</year>
-		<tags>Culture</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
-			</Item>
-		</capability>
-		<task_text>Continue robotic acceptance/familiarization training for all Depot employees and look for additional robotic opportunities</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>WR-ALC</name>
-			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	<Item isNew="1" isTemp="1" type="Identity" action="add" id="E22FD26CD09B4BC2A7E4250BF6DEC3C8">
+		<name>ASD</name>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="50C3063965894BC68053624AFC740645">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2024</year>
-		<tags>Culture</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
-			</Item>
-		</capability>
-		<task_text>Continue robotic acceptance/familiarization training for all Depot employees and look for additional robotic opportunities</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>WR-ALC</name>
-			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	<Item isNew="1" isTemp="1" type="Identity" action="add" id="5202477A885C477A9BB68E5983160089">
+		<name>AM</name>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="4540D1E411904D55AC0F9C828E12656E">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2022</year>
-		<tags>Culture</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
-			</Item>
-		</capability>
-		<task_text>Develop “Robotic Operator” job series, with progressive steps as certifications are reached</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>402 CMXG</name>
-			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	<Item isNew="1" isTemp="1" type="Identity" action="add" id="C538BF0AFB1744E18F8E1CC2E73C782E">
+		<name>HO</name>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="34CA29B351DC4ECDA0CA45EC81B71396">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2020</year>
-		<tags>Technology</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
+	<Item isNew="1" isTemp="1" type="SE Process" action="add" id="55551F060296499A8CD817D71877072A">
+		<item_number>0.01 One</item_number>
+		<name>One</name>
+		<owned_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">Systems Engineering Manager</keyed_name>
 			</Item>
-		</capability>
-		<task_text>The first Co-Bot used in an Air Force production environment </task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>402 CMXG</name>
+		</owned_by_id>
+		<managed_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">MD</keyed_name>
 			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+		</managed_by_id>
+		<system_id>3782D10478CE40C9AA4F2F43CD475B9F</system_id>
+		<is_template>0</is_template>
+		<process_type>Technical</process_type>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="A85D2496152E48E6841E1DCE81F90CAA">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2022</year>
-		<tags>Technology</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
+	<Item isNew="1" isTemp="1" type="SE Process" action="add" id="E16D519DF900475FBEA2B3FCCA7C307B">
+		<item_number>0.02 Two</item_number>
+		<name>Two</name>
+		<owned_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">Systems Engineering Manager</keyed_name>
 			</Item>
-		</capability>
-		<task_text>AMXG A5 Robot for sanding and X-Ray</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>402 AMXG</name>
+		</owned_by_id>
+		<managed_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">MD</keyed_name>
 			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+		</managed_by_id>
+		<system_id>3782D10478CE40C9AA4F2F43CD475B9F</system_id>
+		<is_template>0</is_template>
+		<process_type>Technical</process_type>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="C06B67EB553A4A02A9C493CEA671C690">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2022</year>
-		<tags>Technology</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
+	<Item isNew="1" isTemp="1" type="SE Process" action="add" id="FA814E3EAB2A4BF88C42941F5944E566">
+		<item_number>0.03 Three</item_number>
+		<name>Three</name>
+		<owned_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">Systems Engineering Manager</keyed_name>
 			</Item>
-		</capability>
-		<task_text>AMXG Mobile Laser Robot</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>402 AMXG</name>
+		</owned_by_id>
+		<managed_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">MD</keyed_name>
 			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+		</managed_by_id>
+		<system_id>3782D10478CE40C9AA4F2F43CD475B9F</system_id>
+		<is_template>0</is_template>
+		<process_type>Technical</process_type>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="E5F3E9EF0E5449C2A62E9B304DAA8891">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2020</year>
-		<tags>Technology</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
+	<Item isNew="1" isTemp="1" type="SE Process" action="add" id="B65A9C0FC8234860BE59E5EAFA1DC299">
+		<item_number>0.04 Four</item_number>
+		<name>Four</name>
+		<owned_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">Systems Engineering Manager</keyed_name>
 			</Item>
-		</capability>
-		<task_text>AMXG Mobile Laser Robot</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>402 CMXG</name>
+		</owned_by_id>
+		<managed_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">MMD</keyed_name>
 			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+		</managed_by_id>
+		<system_id>A83AA1921D34433ABCC8C8D88FD7BAFF</system_id>
+		<is_template>0</is_template>
+		<process_type>Technical</process_type>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="6A0960AA00294231A68B40561DC58565">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2021</year>
-		<tags>Technology</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
+	<Item isNew="1" isTemp="1" type="SE Process" action="add" id="16729F84B22B4F31821168BA170A9997">
+		<item_number>0.05 Five</item_number>
+		<name>Five</name>
+		<owned_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">Systems Engineering Manager</keyed_name>
 			</Item>
-		</capability>
-		<task_text>Autonomous path planning becoming the standard for Depot robotics</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>402 CMXG</name>
+		</owned_by_id>
+		<managed_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">AM</keyed_name>
 			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+		</managed_by_id>
+		<system_id>A83AA1921D34433ABCC8C8D88FD7BAFF</system_id>
+		<is_template>0</is_template>
+		<process_type>Technical</process_type>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="2260F06DD501475AA559B28549477C0E">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2020</year>
-		<tags>Technology</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
+	<Item isNew="1" isTemp="1" type="SE Process" action="add" id="2FA37147C80A4734896F733F8692C110">
+		<item_number>0.06 Six</item_number>
+		<name>Six</name>
+		<owned_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">Systems Engineering Manager</keyed_name>
 			</Item>
-		</capability>
-		<task_text>Build AI to begin identifying items/defects</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>402 CMXG</name>
+		</owned_by_id>
+		<managed_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">WI</keyed_name>
 			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+		</managed_by_id>
+		<system_id>A83AA1921D34433ABCC8C8D88FD7BAFF</system_id>
+		<is_template>0</is_template>
+		<process_type>Technical</process_type>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="8E876FFCFC8C4648BF01219F281C8285">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2019</year>
-		<tags>Technology</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
+	<Item isNew="1" isTemp="1" type="SE Process" action="add" id="764B7C6D4C1C4AFC9FE654A770299DCC">
+		<item_number>0.07 Seven</item_number>
+		<name>Seven</name>
+		<owned_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">Systems Engineering Manager</keyed_name>
 			</Item>
-		</capability>
-		<task_text>Build AI to begin identifying items/defects</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>402 CMXG</name>
+		</owned_by_id>
+		<managed_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">HO</keyed_name>
 			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+		</managed_by_id>
+		<system_id>A83AA1921D34433ABCC8C8D88FD7BAFF</system_id>
+		<is_template>0</is_template>
+		<process_type>Technical</process_type>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="622E90AA477C45D5867D4EFC3AB30C00">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2019</year>
-		<tags>Technology</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
+	<Item isNew="1" isTemp="1" type="SE Process" action="add" id="5CDDA0F42A224B3092BB59BB6A62BD30">
+		<item_number>0.08 Eight</item_number>
+		<name>Eight</name>
+		<owned_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">Systems Engineering Manager</keyed_name>
 			</Item>
-		</capability>
-		<task_text>Test deep learning and process models on production robots</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>402 CMXG</name>
+		</owned_by_id>
+		<managed_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">ASD</keyed_name>
 			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+		</managed_by_id>
+		<system_id>727C8117B5CC4A14A5D90B459AC5C99A</system_id>
+		<is_template>0</is_template>
+		<process_type>Technical</process_type>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="2AD8EF6635F14D87AC2334D0FE574C0E">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2021</year>
-		<tags>Technology</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
+	<Item isNew="1" isTemp="1" type="SE Process" action="add" id="A782EDC33F924CE3A3B1ED84E489188E">
+		<item_number>0.09 Nine</item_number>
+		<name>Nine</name>
+		<owned_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">Systems Engineering Manager</keyed_name>
 			</Item>
-		</capability>
-		<task_text>Build AI to quickly produce 3D models</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>402 CMXG</name>
+		</owned_by_id>
+		<managed_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">ASD</keyed_name>
 			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+		</managed_by_id>
+		<system_id>727C8117B5CC4A14A5D90B459AC5C99A</system_id>
+		<is_template>0</is_template>
+		<process_type>Technical</process_type>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="CDD776D151E0436DAA2AD28818334923">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2019</year>
-		<tags>Technology</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
+	<Item isNew="1" isTemp="1" type="SE Process" action="add" id="03953EFC27144BF9A1A38974DE3B1C91">
+		<item_number>0.10 Ten</item_number>
+		<name>Ten</name>
+		<owned_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">Systems Engineering Manager</keyed_name>
 			</Item>
-		</capability>
-		<task_text>The first mobile robots used in an Air Force production environment</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>402 CMXG</name>
+		</owned_by_id>
+		<managed_by_id>
+			<Item isNew="1" isTemp="1" type="Identity" action="get" select="id">
+				<keyed_name condition="eq">WI</keyed_name>
 			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+		</managed_by_id>
+		<system_id>676DE8682524403CB03C2DE0BD8E7DAB</system_id>
+		<is_template>0</is_template>
+		<process_type>Technical</process_type>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="E9A70D2C3A5F4761B22026C881155795">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2021</year>
-		<tags>Technology</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
-			</Item>
-		</capability>
-		<task_text>Continue to implement robotic solutions with the latest technological advancements</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>WR-ALC</name>
-			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	<Item isNew="1" isTemp="1" type="SE IO" action="add" id="178E1EF7367546EFB2FB5B114239DECF">
+		<item_number>IO-1001</item_number>
+		<name>Approach</name>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="DC7644951ABD4B659FC190534AED3FF5">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2022</year>
-		<tags>Technology</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
-			</Item>
-		</capability>
-		<task_text>Continue to implement robotic solutions with the latest technological advancements</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>WR-ALC</name>
-			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	<Item isNew="1" isTemp="1" type="SE IO" action="add" id="7DAF73E1BD754E7D9BAD0135A96D2E0C">
+		<item_number>IO-1002</item_number>
+		<name>Engine and Flight</name>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="9978079DBD754F91BE70E65AD0212B40">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2023</year>
-		<tags>Technology</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
-			</Item>
-		</capability>
-		<task_text>Continue to implement robotic solutions with the latest technological advancements</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>WR-ALC</name>
-			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	<Item isNew="1" isTemp="1" type="SE IO" action="add" id="9343FDF9B0DD428B9F4281C93A275164">
+		<item_number>IO-1003</item_number>
+		<name>Engine conditions</name>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="26EBC76CD340425F80BC445F6B91EC72">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2024</year>
-		<tags>Technology</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
-			</Item>
-		</capability>
-		<task_text>Continue to implement robotic solutions with the latest technological advancements</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>WR-ALC</name>
-			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	<Item isNew="1" isTemp="1" type="SE IO" action="add" id="5BD76FFE23EE49A093C69B9F22AB85B2">
+		<item_number>IO-1004</item_number>
+		<name>Additional exploration of mission envelope</name>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="EEC6AA716C7140068455FD3EC9970BF6">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2021</year>
-		<tags>Technology</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
-			</Item>
-		</capability>
-		<task_text>MXSG Training Robot</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>402 EMXG</name>
-			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	<Item isNew="1" isTemp="1" type="SE IO" action="add" id="6559F254CA7B41968484BB2C16E276FF">
+		<item_number>IO-1005</item_number>
+		<name>Range and effectiveness</name>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="19253E4EBF694200895D6B9EDCFB16FE">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2021</year>
-		<tags>Technology</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
-			</Item>
-		</capability>
-		<task_text>Evaluate different path
-planning options and determine how to standardize</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>402 CMXG</name>
-			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	<Item isNew="1" isTemp="1" type="SE IO" action="add" id="009D86A0FBDD4B8BB14786CA6DF3A506">
+		<item_number>IO-1006</item_number>
+		<name>Engine ready hardware</name>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="84A960AC3CC348318558F581D81A6CF9">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2022</year>
-		<tags>Technology</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
-			</Item>
-		</capability>
-		<task_text>Evaluate different path
-planning options and determine how to standardize</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>402 CMXG</name>
-			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	<Item isNew="1" isTemp="1" type="SE IO" action="add" id="750ACAC25C48482CAC2BCBC20B10D78C">
+		<item_number>IO-1007</item_number>
+		<name>Alternate materials</name>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="90F8F9D534B0497FADE9E72B8D2D407F">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2022</year>
-		<tags>Cyber Security</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
-			</Item>
-		</capability>
-		<task_text>Develop a secure industrial network</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>WR-ALC</name>
-			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	<Item isNew="1" isTemp="1" type="SE IO" action="add" id="288DAB0794444DC3B9C7AC61F8277ED6">
+		<item_number>IO-1008</item_number>
+		<name>Hardware design</name>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="92A3F2FCB6D340F9A8E0E6D32D8E62B7">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2021</year>
-		<tags>Cyber Security</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
-			</Item>
-		</capability>
-		<task_text>Complete Industrial Robotics RMF boundary</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>402 CMXG</name>
-			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	<Item isNew="1" isTemp="1" type="SE IO" action="add" id="543F5306DBF84C418059E2CAE64C7CAA">
+		<item_number>IO-1009</item_number>
+		<name>Special Direct Connect Requirements</name>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="E88D790C2B214EFD9D06CF41343C2104">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2020</year>
-		<tags>Cyber Security</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
-			</Item>
-		</capability>
-		<task_text>Develop an industrial control set of cyber policies and procedures</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>402 CMXG</name>
-			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+	<Item isNew="1" isTemp="1" type="SE IO" action="add" id="7570A3E5122A4A15A22D825ED5276983">
+		<item_number>IO-1010</item_number>
+		<name>Direct energy deposition</name>
 	</Item>
-	<Item isNew="1" isTemp="1" type="AP Task" action="add" id="7CD0925EF88A4F5A99080281F18A84F3">
-		<reference>WR-ALC Robotics RoadMap_v3</reference>
-		<year>2019</year>
-		<tags>Cyber Security</tags>
-		<capability>
-			<Item isNew="1" isTemp="1" type="AF Capability" action="get">
-				<name>Robotics</name>
+	<Item isNew="1" isTemp="1" type="SE IO" action="add" id="353402806C334910BE608230949C56AB">
+		<item_number>IO-1011</item_number>
+		<name>Special  direct connect test capability</name>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE IO" action="add" id="F295C7A1902147E987FB64E2B2D610C9">
+		<item_number>IO-1012</item_number>
+		<name>Enhanced test capability</name>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE IO" action="add" id="38C2B4EA739B4BF7ABDC1ADE87F6C221">
+		<item_number>IO-1013</item_number>
+		<name>Materials for validation</name>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE IO" action="add" id="D4BF72EFF8F5421F9495E79B67647FB0">
+		<item_number>IO-1014</item_number>
+		<name>Hardware does not meet cost and performance</name>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE IO" action="add" id="F3EEE7B7F71B458FBBAB735FE81B216E">
+		<item_number>IO-1015</item_number>
+		<name>Production strategies</name>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Input" action="add" id="CE7018904E4A44FD841E920B694D15DB">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.01 One</keyed_name>
 			</Item>
-		</capability>
-		<task_text>Specify new equipment to meet RMF guidelines</task_text>
-		<sponsor_org>
-			<Item isNew="1" isTemp="1" type="Organization Unit" action="get">
-				<name>402 CMXG</name>
+		</source_id>
+		<se_input_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1001</item_number>
 			</Item>
-		</sponsor_org>
-		<location>RAFB</location>
-		<source_id>8CFE7099FA7B4E7E959ACF839D43C596</source_id>
+		</se_input_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Input" action="add" id="96FFED34F68C4BF2A27B131CF724BD34">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.01 One</keyed_name>
+			</Item>
+		</source_id>
+		<se_input_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1013</item_number>
+			</Item>
+		</se_input_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Input" action="add" id="E0497F46E91B467098BA1B7CCAD5792C">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.02 Two</keyed_name>
+			</Item>
+		</source_id>
+		<se_input_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1002</item_number>
+			</Item>
+		</se_input_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Input" action="add" id="8C3B5340DE8E4FA58C71EBC2E8F2F107">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.03 Three</keyed_name>
+			</Item>
+		</source_id>
+		<se_input_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1003</item_number>
+			</Item>
+		</se_input_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Input" action="add" id="F4A70E3F107F4BAF8C244522A9B5A57A">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.03 Three</keyed_name>
+			</Item>
+		</source_id>
+		<se_input_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1004</item_number>
+			</Item>
+		</se_input_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Input" action="add" id="C98716927D054E9B911E27D7E2E7DDED">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.04 Four</keyed_name>
+			</Item>
+		</source_id>
+		<se_input_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1003</item_number>
+			</Item>
+		</se_input_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Input" action="add" id="4CD1ECD9540E474CA725D9DF91EB377C">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.04 Four</keyed_name>
+			</Item>
+		</source_id>
+		<se_input_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1008</item_number>
+			</Item>
+		</se_input_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Input" action="add" id="9A577D78910343F69778BFD8490AC425">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.05 Five</keyed_name>
+			</Item>
+		</source_id>
+		<se_input_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1003</item_number>
+			</Item>
+		</se_input_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Input" action="add" id="3822181952DF42028623A8589AF9D581">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.06 Six</keyed_name>
+			</Item>
+		</source_id>
+		<se_input_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1007</item_number>
+			</Item>
+		</se_input_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Input" action="add" id="8F4F68F7FC554907BD47F0ACA20E309A">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.07 Seven</keyed_name>
+			</Item>
+		</source_id>
+		<se_input_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1008</item_number>
+			</Item>
+		</se_input_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Input" action="add" id="E64990EFCDE7426BB3ABED362A744B0E">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.08 Eight</keyed_name>
+			</Item>
+		</source_id>
+		<se_input_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1009</item_number>
+			</Item>
+		</se_input_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Input" action="add" id="1590FD4B41854D5789B3D59A394A5285">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.09 Nine</keyed_name>
+			</Item>
+		</source_id>
+		<se_input_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1011</item_number>
+			</Item>
+		</se_input_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Input" action="add" id="8819809C133A41D296F24EDCFB164FA5">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.10 Ten</keyed_name>
+			</Item>
+		</source_id>
+		<se_input_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1013</item_number>
+			</Item>
+		</se_input_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Output" action="add" id="98168222F2CE49D683FDFBCCC9969262">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.01 One</keyed_name>
+			</Item>
+		</source_id>
+		<se_output_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1002</item_number>
+			</Item>
+		</se_output_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Output" action="add" id="0F7BE111A3314F61B6513C1DDABCBCEB">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.02 Two</keyed_name>
+			</Item>
+		</source_id>
+		<se_output_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1003</item_number>
+			</Item>
+		</se_output_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Output" action="add" id="4A145B51EF004C8D9BB436A2E2966972">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.02 Two</keyed_name>
+			</Item>
+		</source_id>
+		<se_output_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1004</item_number>
+			</Item>
+		</se_output_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Output" action="add" id="AEE9CD6737A148D29724ED9FFDE764FC">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.03 Three</keyed_name>
+			</Item>
+		</source_id>
+		<se_output_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1005</item_number>
+			</Item>
+		</se_output_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Output" action="add" id="69DF8BE7B9DE4F6C85501D94575BF61E">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.04 Four</keyed_name>
+			</Item>
+		</source_id>
+		<se_output_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1006</item_number>
+			</Item>
+		</se_output_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Output" action="add" id="411F5FDD3F7B42C7BD8FB32938A73844">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.05 Five</keyed_name>
+			</Item>
+		</source_id>
+		<se_output_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1007</item_number>
+			</Item>
+		</se_output_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Output" action="add" id="C9EFCD5396B34CF4B01D4419BB1F6055">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.06 Six</keyed_name>
+			</Item>
+		</source_id>
+		<se_output_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1008</item_number>
+			</Item>
+		</se_output_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Output" action="add" id="57BE5404D15445AD8208F90E9A28DD67">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.07 Seven</keyed_name>
+			</Item>
+		</source_id>
+		<se_output_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1010</item_number>
+			</Item>
+		</se_output_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Output" action="add" id="27B00FF99E0241BB9D6E852D840127A9">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.08 Eight</keyed_name>
+			</Item>
+		</source_id>
+		<se_output_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1011</item_number>
+			</Item>
+		</se_output_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Output" action="add" id="F1F64F2BA3184464AE73D34201F4419A">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.09 Nine</keyed_name>
+			</Item>
+		</source_id>
+		<se_output_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1012</item_number>
+			</Item>
+		</se_output_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Output" action="add" id="BFCFF23A88754C018F88283991653921">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.09 Nine</keyed_name>
+			</Item>
+		</source_id>
+		<se_output_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1013</item_number>
+			</Item>
+		</se_output_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Output" action="add" id="31A44AE6B34D44A78ABEA5AF4251CB76">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.10 Ten</keyed_name>
+			</Item>
+		</source_id>
+		<se_output_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1014</item_number>
+			</Item>
+		</se_output_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Output" action="add" id="575F4132175041ED8FA573F995F01B6B">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.10 Ten</keyed_name>
+			</Item>
+		</source_id>
+		<se_output_id>
+			<Item isNew="1" isTemp="1" type="SE IO" action="get" select="id">
+				<item_number condition="eq">IO-1015</item_number>
+			</Item>
+		</se_output_id>
+		<is_applicable>1</is_applicable>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Activity" action="add" id="E198F06E21EE460B87F3D97F09B0324A">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.01 One</keyed_name>
+			</Item>
+		</source_id>
+		<name>Execute</name>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Activity" action="add" id="F9432F4D93D7438ABE84363FE05918D9">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.02 Two</keyed_name>
+			</Item>
+		</source_id>
+		<name>Execute</name>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Activity" action="add" id="41F17EF28C6E47EFB826086D6936F45C">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.03 Three</keyed_name>
+			</Item>
+		</source_id>
+		<name>Execute</name>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Activity" action="add" id="D485A269716E454285439FB262E49F1E">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.04 Four</keyed_name>
+			</Item>
+		</source_id>
+		<name>Execute</name>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Activity" action="add" id="6D57D26798AD4474ADF42414031FD0B4">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.05 Five</keyed_name>
+			</Item>
+		</source_id>
+		<name>Execute</name>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Activity" action="add" id="A24C0A0F92FF4940B80CCE7A86C6B97E">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.06 Six</keyed_name>
+			</Item>
+		</source_id>
+		<name>Execute</name>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Activity" action="add" id="301F85A83FCF4047997EBD083FFF7868">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.07 Seven</keyed_name>
+			</Item>
+		</source_id>
+		<name>Execute</name>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Activity" action="add" id="5942C954659E447284FB11FDC3FACDD4">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.08 Eight</keyed_name>
+			</Item>
+		</source_id>
+		<name>Execute</name>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Activity" action="add" id="237B276A776C4A8CA27F52B516A2814C">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.09 Nine</keyed_name>
+			</Item>
+		</source_id>
+		<name>Execute</name>
+	</Item>
+	<Item isNew="1" isTemp="1" type="SE Activity" action="add" id="DFDD9EB7A6D94476BB8DDE3BBB16A6EB">
+		<source_id>
+			<Item isNew="1" isTemp="1" type="SE Process" action="get" select="id">
+				<keyed_name condition="eq">0.10 Ten</keyed_name>
+			</Item>
+		</source_id>
+		<name>Execute</name>
 	</Item>
 </AML>
